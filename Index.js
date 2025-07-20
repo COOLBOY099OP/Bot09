@@ -5,8 +5,8 @@ let bot;
 
 function createBot() {
     bot = mineflayer.createBot({
-        host: 'server_ip', // Aternos server IP
-        port: 25565,
+        host: 'dtyagi-lol10110.aternos.me:40234', // Aternos server IP
+        port: 40234,
         username: 'Bot_' + Math.floor(Math.random() * 1000),
         version: false
     });
